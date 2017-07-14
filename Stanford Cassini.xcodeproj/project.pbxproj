@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7FB600E1F18D5F200C57576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB600D1F18D5F200C57576 /* AppDelegate.swift */; };
+		C7FB60101F18D5F200C57576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB600F1F18D5F200C57576 /* ViewController.swift */; };
+		C7FB60131F18D5F200C57576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FB60111F18D5F200C57576 /* Main.storyboard */; };
+		C7FB60151F18D5F200C57576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FB60141F18D5F200C57576 /* Assets.xcassets */; };
+		C7FB60181F18D5F200C57576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FB60161F18D5F200C57576 /* LaunchScreen.storyboard */; };
+		C7FB60231F18D5F300C57576 /* Stanford_CassiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB60221F18D5F300C57576 /* Stanford_CassiniTests.swift */; };
+		C7FB602E1F18D5F300C57576 /* Stanford_CassiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB602D1F18D5F300C57576 /* Stanford_CassiniUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7FB601F1F18D5F300C57576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7FB60021F18D5F200C57576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7FB60091F18D5F200C57576;
+			remoteInfo = "Stanford Cassini";
+		};
+		C7FB602A1F18D5F300C57576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7FB60021F18D5F200C57576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7FB60091F18D5F200C57576;
+			remoteInfo = "Stanford Cassini";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7FB600A1F18D5F200C57576 /* Stanford Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stanford Cassini.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FB600D1F18D5F200C57576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7FB600F1F18D5F200C57576 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7FB60121F18D5F200C57576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7FB60141F18D5F200C57576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7FB60171F18D5F200C57576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7FB60191F18D5F200C57576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7FB601E1F18D5F300C57576 /* Stanford CassiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stanford CassiniTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FB60221F18D5F300C57576 /* Stanford_CassiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stanford_CassiniTests.swift; sourceTree = "<group>"; };
+		C7FB60241F18D5F300C57576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7FB60291F18D5F300C57576 /* Stanford CassiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stanford CassiniUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FB602D1F18D5F300C57576 /* Stanford_CassiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stanford_CassiniUITests.swift; sourceTree = "<group>"; };
+		C7FB602F1F18D5F300C57576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7FB60071F18D5F200C57576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7FB601B1F18D5F300C57576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7FB60261F18D5F300C57576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7FB60011F18D5F200C57576 = {
+			isa = PBXGroup;
+			children = (
+				C7FB600C1F18D5F200C57576 /* Stanford Cassini */,
+				C7FB60211F18D5F300C57576 /* Stanford CassiniTests */,
+				C7FB602C1F18D5F300C57576 /* Stanford CassiniUITests */,
+				C7FB600B1F18D5F200C57576 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7FB600B1F18D5F200C57576 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7FB600A1F18D5F200C57576 /* Stanford Cassini.app */,
+				C7FB601E1F18D5F300C57576 /* Stanford CassiniTests.xctest */,
+				C7FB60291F18D5F300C57576 /* Stanford CassiniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7FB600C1F18D5F200C57576 /* Stanford Cassini */ = {
+			isa = PBXGroup;
+			children = (
+				C7FB600D1F18D5F200C57576 /* AppDelegate.swift */,
+				C7FB600F1F18D5F200C57576 /* ViewController.swift */,
+				C7FB60111F18D5F200C57576 /* Main.storyboard */,
+				C7FB60141F18D5F200C57576 /* Assets.xcassets */,
+				C7FB60161F18D5F200C57576 /* LaunchScreen.storyboard */,
+				C7FB60191F18D5F200C57576 /* Info.plist */,
+			);
+			path = "Stanford Cassini";
+			sourceTree = "<group>";
+		};
+		C7FB60211F18D5F300C57576 /* Stanford CassiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7FB60221F18D5F300C57576 /* Stanford_CassiniTests.swift */,
+				C7FB60241F18D5F300C57576 /* Info.plist */,
+			);
+			path = "Stanford CassiniTests";
+			sourceTree = "<group>";
+		};
+		C7FB602C1F18D5F300C57576 /* Stanford CassiniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7FB602D1F18D5F300C57576 /* Stanford_CassiniUITests.swift */,
+				C7FB602F1F18D5F300C57576 /* Info.plist */,
+			);
+			path = "Stanford CassiniUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7FB60091F18D5F200C57576 /* Stanford Cassini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7FB60321F18D5F300C57576 /* Build configuration list for PBXNativeTarget "Stanford Cassini" */;
+			buildPhases = (
+				C7FB60061F18D5F200C57576 /* Sources */,
+				C7FB60071F18D5F200C57576 /* Frameworks */,
+				C7FB60081F18D5F200C57576 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stanford Cassini";
+			productName = "Stanford Cassini";
+			productReference = C7FB600A1F18D5F200C57576 /* Stanford Cassini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7FB601D1F18D5F300C57576 /* Stanford CassiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7FB60351F18D5F300C57576 /* Build configuration list for PBXNativeTarget "Stanford CassiniTests" */;
+			buildPhases = (
+				C7FB601A1F18D5F300C57576 /* Sources */,
+				C7FB601B1F18D5F300C57576 /* Frameworks */,
+				C7FB601C1F18D5F300C57576 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7FB60201F18D5F300C57576 /* PBXTargetDependency */,
+			);
+			name = "Stanford CassiniTests";
+			productName = "Stanford CassiniTests";
+			productReference = C7FB601E1F18D5F300C57576 /* Stanford CassiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7FB60281F18D5F300C57576 /* Stanford CassiniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7FB60381F18D5F300C57576 /* Build configuration list for PBXNativeTarget "Stanford CassiniUITests" */;
+			buildPhases = (
+				C7FB60251F18D5F300C57576 /* Sources */,
+				C7FB60261F18D5F300C57576 /* Frameworks */,
+				C7FB60271F18D5F300C57576 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7FB602B1F18D5F300C57576 /* PBXTargetDependency */,
+			);
+			name = "Stanford CassiniUITests";
+			productName = "Stanford CassiniUITests";
+			productReference = C7FB60291F18D5F300C57576 /* Stanford CassiniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7FB60021F18D5F200C57576 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Diogo M Souza";
+				TargetAttributes = {
+					C7FB60091F18D5F200C57576 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					C7FB601D1F18D5F300C57576 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = C7FB60091F18D5F200C57576;
+					};
+					C7FB60281F18D5F300C57576 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = C7FB60091F18D5F200C57576;
+					};
+				};
+			};
+			buildConfigurationList = C7FB60051F18D5F200C57576 /* Build configuration list for PBXProject "Stanford Cassini" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7FB60011F18D5F200C57576;
+			productRefGroup = C7FB600B1F18D5F200C57576 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7FB60091F18D5F200C57576 /* Stanford Cassini */,
+				C7FB601D1F18D5F300C57576 /* Stanford CassiniTests */,
+				C7FB60281F18D5F300C57576 /* Stanford CassiniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7FB60081F18D5F200C57576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FB60181F18D5F200C57576 /* LaunchScreen.storyboard in Resources */,
+				C7FB60151F18D5F200C57576 /* Assets.xcassets in Resources */,
+				C7FB60131F18D5F200C57576 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7FB601C1F18D5F300C57576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7FB60271F18D5F300C57576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7FB60061F18D5F200C57576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FB60101F18D5F200C57576 /* ViewController.swift in Sources */,
+				C7FB600E1F18D5F200C57576 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7FB601A1F18D5F300C57576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FB60231F18D5F300C57576 /* Stanford_CassiniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7FB60251F18D5F300C57576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FB602E1F18D5F300C57576 /* Stanford_CassiniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7FB60201F18D5F300C57576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7FB60091F18D5F200C57576 /* Stanford Cassini */;
+			targetProxy = C7FB601F1F18D5F300C57576 /* PBXContainerItemProxy */;
+		};
+		C7FB602B1F18D5F300C57576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7FB60091F18D5F200C57576 /* Stanford Cassini */;
+			targetProxy = C7FB602A1F18D5F300C57576 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7FB60111F18D5F200C57576 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7FB60121F18D5F200C57576 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7FB60161F18D5F200C57576 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7FB60171F18D5F200C57576 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7FB60301F18D5F300C57576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7FB60311F18D5F300C57576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7FB60331F18D5F300C57576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MD49SC946D;
+				INFOPLIST_FILE = "Stanford Cassini/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jpn.br.classico.diogomsouza.Stanford-Cassini";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7FB60341F18D5F300C57576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MD49SC946D;
+				INFOPLIST_FILE = "Stanford Cassini/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jpn.br.classico.diogomsouza.Stanford-Cassini";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7FB60361F18D5F300C57576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MD49SC946D;
+				INFOPLIST_FILE = "Stanford CassiniTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jpn.br.classico.diogomsouza.Stanford-CassiniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stanford Cassini.app/Stanford Cassini";
+			};
+			name = Debug;
+		};
+		C7FB60371F18D5F300C57576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MD49SC946D;
+				INFOPLIST_FILE = "Stanford CassiniTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jpn.br.classico.diogomsouza.Stanford-CassiniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stanford Cassini.app/Stanford Cassini";
+			};
+			name = Release;
+		};
+		C7FB60391F18D5F300C57576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MD49SC946D;
+				INFOPLIST_FILE = "Stanford CassiniUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jpn.br.classico.diogomsouza.Stanford-CassiniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stanford Cassini";
+			};
+			name = Debug;
+		};
+		C7FB603A1F18D5F300C57576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MD49SC946D;
+				INFOPLIST_FILE = "Stanford CassiniUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jpn.br.classico.diogomsouza.Stanford-CassiniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stanford Cassini";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7FB60051F18D5F200C57576 /* Build configuration list for PBXProject "Stanford Cassini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7FB60301F18D5F300C57576 /* Debug */,
+				C7FB60311F18D5F300C57576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7FB60321F18D5F300C57576 /* Build configuration list for PBXNativeTarget "Stanford Cassini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7FB60331F18D5F300C57576 /* Debug */,
+				C7FB60341F18D5F300C57576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7FB60351F18D5F300C57576 /* Build configuration list for PBXNativeTarget "Stanford CassiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7FB60361F18D5F300C57576 /* Debug */,
+				C7FB60371F18D5F300C57576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7FB60381F18D5F300C57576 /* Build configuration list for PBXNativeTarget "Stanford CassiniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7FB60391F18D5F300C57576 /* Debug */,
+				C7FB603A1F18D5F300C57576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7FB60021F18D5F200C57576 /* Project object */;
+}
