@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C74121661F1A528700A43748 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74121651F1A528600A43748 /* CassiniViewController.swift */; };
+		C74121681F1A687700A43748 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74121671F1A687700A43748 /* DemoURL.swift */; };
 		C7FB600E1F18D5F200C57576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB600D1F18D5F200C57576 /* AppDelegate.swift */; };
 		C7FB60131F18D5F200C57576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FB60111F18D5F200C57576 /* Main.storyboard */; };
 		C7FB60151F18D5F200C57576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FB60141F18D5F200C57576 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C74121651F1A528600A43748 /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
+		C74121671F1A687700A43748 /* DemoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 		C7FB600A1F18D5F200C57576 /* Stanford Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stanford Cassini.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FB600D1F18D5F200C57576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7FB60121F18D5F200C57576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				C7FB60191F18D5F200C57576 /* Info.plist */,
 				C7FB603B1F18D60F00C57576 /* Supporting Files */,
 				C7FB603C1F18D65300C57576 /* ImageViewController.swift */,
+				C74121651F1A528600A43748 /* CassiniViewController.swift */,
+				C74121671F1A687700A43748 /* DemoURL.swift */,
 			);
 			path = "Stanford Cassini";
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7FB603D1F18D65300C57576 /* ImageViewController.swift in Sources */,
+				C74121681F1A687700A43748 /* DemoURL.swift in Sources */,
+				C74121661F1A528700A43748 /* CassiniViewController.swift in Sources */,
 				C7FB600E1F18D5F200C57576 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,6 +547,7 @@
 				C7FB60341F18D5F300C57576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7FB60351F18D5F300C57576 /* Build configuration list for PBXNativeTarget "Stanford CassiniTests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +556,7 @@
 				C7FB60371F18D5F300C57576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7FB60381F18D5F300C57576 /* Build configuration list for PBXNativeTarget "Stanford CassiniUITests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +565,7 @@
 				C7FB603A1F18D5F300C57576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
